@@ -1,0 +1,100 @@
+.secao_contato {
+    width: 100%;
+    background-color: #05031b;
+    color: #F8F7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao_contato h2 {
+    font-size: 2rem;
+    margin: 2%;
+    text-transform: uppercase;
+}
+
+.secao_contato p {
+    max-width: 650px;
+    text-align: center;
+    line-height: 1.8em;
+    margin: 0 0 3% 0;
+}
+
+.container_contato {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 120px;
+    width: 40%;
+    padding: 10px;
+}
+
+.contato_item {
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.contato_item h3 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.item {
+    display: flex;               
+    align-items: center;    
+    gap: 12px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.contato_item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+}
+
+@media (max-width: 1024px) {
+    .container_contato {
+        width: 70%;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_contato {
+        flex-direction: column;      /* 🔑 empilha */
+        align-items: center;
+        width: 100%;
+        border: none;                /* opcional */
+    }
+
+    .contato_item {
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contato_item h3 {
+        text-align: center;
+    }
+
+    .item {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .secao_contato p {
+        font-size: 0.95rem;
+        padding: 0 10px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .secao_contato h2 {
+        font-size: 1.6rem;
+    }
+}

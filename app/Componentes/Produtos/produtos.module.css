@@ -1,0 +1,134 @@
+.produtos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produtos h2 {
+    font-size: 2rem;
+    color: #05031b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.produtos p {
+    font-size: 1em;
+    text-align: center;
+    max-width: 650px;
+    line-height: 30px;
+}
+
+.container_produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 1024px;
+    padding: 10%;
+    height: auto;
+}
+
+.card_produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    padding: 15px;
+    gap: 30px;
+    margin-bottom: 1.5em;
+    background-color: #F6F6F6;
+    box-shadow: #4a4a4a 1PX 2PX 10PX;
+    border-radius: 2%;
+}
+
+.card_produto img {
+    width: 100%;
+    height: 130px;
+}
+
+.card_produto h3 {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    margin-bottom: 10%;
+}
+
+.card_produto p {
+    font-size: 1em;
+    color: #000000;
+    margin-top: 3%;
+}
+
+.produtos_inclui {
+    width: 100%;
+    max-width: 1024px;
+    padding: 20px;
+    margin-bottom: 5% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos_inclui .texto_inclui {
+    margin-bottom: 3%;
+    font-size: large;
+}
+
+.lista_inclui {
+    font-size: large;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.lista_inclui li {
+    line-height: 2.5em;
+    font-size: 1em;
+}
+
+.lista_inclui li::before {
+    content: "→ ";
+    margin: 8px 10px 0px 0px;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .produtos h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container_produtos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card_produto {
+        width: 80%;
+    }
+
+    .card_produto img {
+        height: auto;   /* imagens com altura automática para não esticar de acordo com o layout*/
+    }
+
+    .lista_inclui li {
+        text-align: center;
+    }
+
+    .texto_inclui {
+        text-align: center;
+        font-weight: 600;
+    }
+
+}

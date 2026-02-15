@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*
+Paleta de cores do projeto: 
+#fff
+#F8F7FF
+#F6F6F6
+#C4C4C4
+#4a4a4a
+#000000
+#05031b
+*/
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}

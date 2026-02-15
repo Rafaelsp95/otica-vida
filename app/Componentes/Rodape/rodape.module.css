@@ -1,0 +1,51 @@
+.rodape {
+    width: 100%;
+    height: auto;
+    background-color: #161616;
+}
+
+.containerRodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerRodape p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.containerRodape span {
+    font-weight: bold;
+}
+
+.redes_sociais_icones img {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 10px 10px 0 10px;
+}
+
+@media (max-width: 768px) {
+    .containerRodape {
+        padding: 10px;
+    }
+
+    .containerRodape p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .redes_sociais_icones img {
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px 0 5px;
+    }
+}
