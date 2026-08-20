@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./Styles/globals.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ótica — Sua visão, nosso cuidado",
