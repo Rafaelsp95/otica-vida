@@ -1,20 +1,19 @@
-"Landing Page E-Commerce - Ótica Vida"
+# Landing Page E-Commerce - Ótica Vida
 
-Uma aplicação web moderna desenvolvida com Next.js e React, 
-especializada na comercialização de óculos de grau, óculos de sol 
-e lentes transition. O projeto implementa arquitetura modular com 
-CSS Modules, garantindo componentes reutilizáveis e manutenibilidade.
+Aplicação web moderna desenvolvida com Next.js e React, especializada na comercialização de óculos de grau, óculos de sol e lentes transition. O projeto implementa arquitetura modular com CSS Modules, garantindo componentes reutilizáveis e manutenibilidade.
 
-A interface apresenta design responsivo profissional, navegação 
-intuitiva com links âncora, catálogo de produtos estruturado e 
-múltiplos canais de contato. Otimizações Next.js incluem Image 
-Component para performance e Metadata para SEO.
+## Sobre o projeto
 
-📱 Totalmente responsivo (desktop, tablet, mobile)
-🎨 Design coerente com paleta de cores documentada
-⚡ Componentes modularizados e reutilizáveis
-🔍 SEO-ready com metadados estruturados
-🎯 UX focada em conversão e engajamento
+A interface apresenta design responsivo profissional, navegação intuitiva com links âncora, catálogo de produtos estruturado e múltiplos canais de contato. As otimizações do Next.js incluem Image Component para performance e Metadata para SEO.
 
-Tecnologias: Next.js, React, TypeScript, CSS Modules
+## Funcionalidades
 
+- Totalmente responsivo (desktop, tablet e mobile)
+- Design coerente com paleta de cores documentada
+- Componentes modularizados e reutilizáveis
+- SEO-ready com metadados estruturados
+- UX focada em conversão e engajamento
+
+## Tecnologias utilizadas
+
+Next.js | React | TypeScript | CSS Modules
