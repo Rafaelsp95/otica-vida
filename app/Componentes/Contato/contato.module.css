@@ -65,7 +65,7 @@
 
 @media (max-width: 768px) {
     .container_contato {
-        flex-direction: column;      /* 🔑 empilha */
+        flex-direction: column;      /* empilha */
         align-items: center;
         width: 100%;
         border: none;                /* opcional */
